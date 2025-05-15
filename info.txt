@@ -1,0 +1,16 @@
+{
+    "success": true,
+    "message": "User created successfully",
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MjRlN2Y2NTQzMGMwZjRmMzJhMDQzZSIsImlhdCI6MTc0NzI0OTE0MiwiZXhwIjoxNzQ3MjQ5MTQ1fQ.TAzJ5Wi-NqfM1ZEv1qOZnlCQCI2o4ctSP1ofwBY6Fzs",
+        "user": {
+            "name": "sample",
+            "email": "someemail@email.com",
+            "password": "$2b$10$9OICpwD/FTXO6ZKVAL6jKe1FqLhYcF8xr4PsM2dmrdeE5w7Ud6Dqe",
+            "_id": "6824e7f65430c0f4f32a043e",
+            "createdAt": "2025-05-14T18:59:02.277Z",
+            "updatedAt": "2025-05-14T18:59:02.277Z",
+            "__v": 0
+        }
+    }
+}
