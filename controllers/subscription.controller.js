@@ -1,4 +1,4 @@
-import { PORT } from "../config/config.js";
+import { PORT, SERVER_ADDRESS } from "../config/config.js";
 import workflowClient from "../config/upstash.js";
 import Subscription from "../models/subscription.model.js";
 
@@ -10,7 +10,7 @@ export const createSubscription = async (req, res, next) => {
         });
 
         const { workflowRunId } = await workflowClient.trigger({
-            url: `http://localhost:${PORT}/api/v1/workflows/subscription/reminder`,
+            url: `${SERVER_ADDRESS}/api/v1/workflows/subscription/reminder`,
             body: {
                 subscriptionId: newSubscription._id.toString(),
             },
